@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+       
+        @media (max-width:600px){
+            body{
+            background-color: red;
+            font-size: 8px;
+        }    
+        }
+
+        @media (min-width:1002px){
+            body{
+                background: yellow;
+                font-size: 8px;
+            }
+        }
+        
+        @media (orientation: portrait){
+            body{
+                background-color: green;
+            }
+
+        }
+          
+        
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Alert</h2>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+
+    function myfunction() {
+        var txt;
+        if (confirm("press a button!")) {
+            txt = "you pressed OK";   
+        } else {
+            txt="you pressed cancel!";
+        }
+        document.getElementById("demo").innerHTML=txt;
+    }
+
+        function myFunction() {
+           alert("I am an alert box!");
+         }
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1 class="demo">heading</h1>
+    <p id="para1">this is the first paragraph</p>
+    <p class="demo">this is the second paragraph</p>
+    <a href="www.facebook.com">facebook</a>
+    
+<script>
+    var x=document.getElementById('para1');
+    console.log(x.innerHTML);
+
+    var y = document.getElementsByTagName('p');
+    console.log(y[1].innerHTML);
+
+    var z = document.getElementsByClassName('demo');
+    console.log(z[0].innerHTML);
+</script>    
+</body>
+</html>

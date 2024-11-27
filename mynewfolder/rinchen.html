@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <style>
+
+           
+            body{
+                background-color: blue;
+                font-size: 16px;
+            }
+            @media (max-width:600px){
+                body{
+                background-color: red;
+                font-size: 8px;
+            }    
+            }
+
+            @media (min-width:1002px){
+                body{
+                    background: yellow;
+                    font-size: 8px;
+                }
+            }
+            
+            @media (orientation: portrait){
+                body{
+                    background-color: green;
+                }
+
+            }
+              
+            
+            
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container text-center p-5 mt-5 bg-secondary"></div>
+            <h3 class="mb-5">Conditional Statements</h3>
+            <p>Click the button below to give your age find if you are eligible to vote!</p>
+            <button onclick="checkAge()">Click Me</button>
+            <p id="p1" class="p-5 m-5 bg-light"></p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2>JavaScript Alert</h2>
+
+        <button onclick="myFunction()">Try it</button>
+
+        <script>
+            function myFunction() {
+               alert("I am an alert box!");
+             }
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1 class="demo">heading</h1>
+        <p id="para1">this is the first paragraph</p>
+        <p class="demo">this is the second paragraph</p>
+        <a href="www.facebook.com">facebook</a>
+        
+    <script>
+        var x=document.getElementById('para1');
+        console.log(x.innerHTML);
+
+        var y = document.getElementsByTagName('p');
+        console.log(y[1].innerHTML);
+
+        var z = document.getElementsByClassName('demo');
+        console.log(z[0].innerHTML);
+    </script>    
+    </body>
+    </html>

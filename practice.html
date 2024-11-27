@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <h2>js regular expression</h2>
+        <p>search a string for all occurances of "boring", and replace with "fun":</p>
+        <p id="demo"></p>
+        <script>
+            let text = "wtd is sp boring!it's never a good class";
+            let n = text.replace(/boring/gi, "fun");
+            document.getElementById("demo").innerHTML=n;
+            
+
+        </script>
+    </body>
+    </html>
